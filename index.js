@@ -34,7 +34,12 @@ var itemsandprices = [];
 }
 
 function total() {
-  cart 
+    var totalprice = 0;
+  for (var i = 0; i < cart.length; i++){
+    var itemi = Object.keys(cart[i]);
+    var pricei = cart[i][itemi];
+    totalprice = totalprice + pricei }
+  return totalprice;
 }
 
 function removeFromCart(item) {
