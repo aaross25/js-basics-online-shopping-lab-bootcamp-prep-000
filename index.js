@@ -17,14 +17,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-   var items = [];
-   var intro = 'In your cart, you have ';
-    if (cart.length==0){
-      console.log('Your shopping cart is empty.');
-    }else{
-      for(let i=0;i<cart.length;i++){
-        cartString = ${item[i]}
-    }
+
 }
 
 function total() {
