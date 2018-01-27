@@ -30,7 +30,7 @@ var itemsandprices = [];
   if (cart.length === 0){console.log('Your shopping cart is empty.')}
   else if (cart.length === 1){console.log(`${intro} ${itemsandprices}.`)}
   else if (cart.length === 2){console.log(`${intro} ${dositems}.`)}
-  else if (cart.length > 2){return(`${intro} ${beginning}, and ${end}.`)}
+  else if (cart.length > 2){console.log(`${intro} ${beginning}, and ${end}.`)}
 }
 
 function total() {
